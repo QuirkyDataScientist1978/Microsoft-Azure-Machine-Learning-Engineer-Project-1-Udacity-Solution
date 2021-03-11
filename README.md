@@ -5,7 +5,7 @@ This project is part of the Udacity Azure ML Nanodegree. This is the first of th
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-The data used in this project is related to direct marketing campaigns of a banking institution in Europe. The classification goal is to predict if the client will subscribe to a term. The dataset consists of 20 input variables and 32,950 rows with 3,692 positive and 29,258 negative classes. 
+The data used in this project is related to direct marketing campaigns of a banking institution in Europe. The classification goal is to predict if the client will subscribe to a term. The dataset consists of 20 input variables and 32,950 rows with 3,692 positive and 29,258 negative classes. There is a very large imbalance between positive and negative classes. This may promote bias within the model. 
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.** We use the Logistic Regression algorithm from Sci-KitLearn in conjunction with HyperDrive for hyperameter tuning. The pipeline consists of the following steps:
