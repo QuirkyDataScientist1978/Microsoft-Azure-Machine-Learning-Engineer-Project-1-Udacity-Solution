@@ -1,0 +1,14 @@
+2021-03-11 12:28:00.149 - INFO - 5059 - azureml.train.automl.automlconfig._start_execution:211 - Submitting remote.
+2021-03-11 13:15:06.107 - INFO - 5059 - azureml.automl.runtime.distributed.utilities.horovod_initialized:58 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2021-03-11 13:15:09.267 - INFO - 5059 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-03-11 13:15:09.288 - INFO - 5059 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-03-11 13:15:09.303 - INFO - 5059 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2021-03-11 13:16:10.860 - INFO - 5059 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=61557.13[ms]
+2021-03-11 13:16:11.027 - INFO - 5059 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=61739.41[ms]
+2021-03-11 13:16:11.455 - INFO - 5059 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=62187.25[ms]
+2021-03-11 13:18:33.867 - INFO - 5059 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-03-11 13:18:33.892 - INFO - 5059 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-03-11 13:18:33.913 - INFO - 5059 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2021-03-11 13:19:43.334 - INFO - 5059 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=69420.45[ms]
+2021-03-11 13:19:43.457 - INFO - 5059 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=69564.31[ms]
+2021-03-11 13:19:44.016 - INFO - 5059 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=70148.52[ms]
