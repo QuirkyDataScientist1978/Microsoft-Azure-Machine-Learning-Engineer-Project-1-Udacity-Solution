@@ -35,11 +35,11 @@ Datasets are split into train and test sets which is standard practice. The spli
 
 ## Hyperparameter Sampling
 
-Hyperparamters are adjustable parameters that let you control the model training process. This is a recurring step for each iteration of model training, controlled by hyperDrive.
+Hyperparamters are adjustable parameters that let you control the model training process.
 
-There are two hyperparamters for this experiment, C and max_iter. C is the inverse regularization strength whereas max_iter is the maximum iteration to converge for the SKLearn Logistic Regression.
+There are two hyperparamters for this experiment, --C and --max_iter. --C is the inverse regularization strength and --max_iter is the maximum iteration to converge for the Sci-KitLearn Logistic Regression model.
 
-We have used random parameter sampling to sample over a discrete set of values. Random parameter sampling is great for discovery and getting hyperparameter combinations that you would not have guessed intuitively, although it often requires more time to execute.
+We used random parameter sampling to sample over discrete sets of value. Random parameter sampling is great for discovery learning as well as hyperparameter combinations though it requires more time to execute.
 
 ## Model Training
 
