@@ -63,6 +63,7 @@ The trained model is then saved, which is important if you want to deploy the mo
 
 AutoML uses the provided dataset to fit on a wide variety of algorithms. It supports classification, regression and time-series forecasting problem sets. The exit criteria is specified in order to stop the training which ensures the resources are not used once the objectives are met. This helps save on costs. Due to the fact that we were utilize a Udacity Virtual Machine for Azure we could only specify a length of 30 minutes for an experiment prior to it timing out. However we were able to iterate through the following model pipelines (with their results):
 
+******************************************************************************************
 ITERATION   PIPELINE                                       DURATION      METRIC      BEST
          0   MaxAbsScaler LightGBM                          0:00:52       0.9148    0.9148
          1   MaxAbsScaler XGBoostClassifier                 0:00:58       0.9154    0.9154
@@ -87,6 +88,7 @@ ITERATION   PIPELINE                                       DURATION      METRIC 
         20   MaxAbsScaler LightGBM                          0:00:57       0.8978    0.9154
         21   SparseNormalizer RandomForest                  0:01:04       0.8879    0.9154
         22    VotingEnsemble                                0:01:22       0.9165    0.9165
+********************************************************************************************
 
 As you can see many of the models were in the upper 80's or lower 90's and very close together, however at the end the the best algorithm ended up being the VotingEnsemble which suprised me coming in at an accuracy of 0.9165
 
